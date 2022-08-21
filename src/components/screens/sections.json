@@ -1,0 +1,47 @@
+[
+    {
+        "title": "section 1",
+        "isProject": false,
+        "id": 1
+    },
+    {
+        "title": "section 2",
+        "isProject": false,
+        "id": 2
+    },
+    {
+        "title": "section 3",
+        "isProject": false,
+        "id": 3
+    },
+    {
+        "title": "section 4",
+        "isProject": false,
+        "id": 4
+    },
+    {
+        "title": "Project 1",
+        "isProject": true,
+        "id": 5
+    },
+    {
+        "title": "section 5",
+        "isProject": false,
+        "id": 6
+    },
+    {
+        "title": "section 6",
+        "isProject": false,
+        "id": 7
+    },
+    {
+        "title": "section 7",
+        "isProject": false,
+        "id": 8
+    },
+    {
+        "title": "final project",
+        "isProject": true,
+        "id": 9
+    }
+]

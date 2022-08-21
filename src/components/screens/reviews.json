@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "username":"user01",
+        "rating":80,
+        "review":"some review"
+    },
+    {
+        "id":2,
+        "username":"user02",
+        "rating":10,
+        "review":"some review"
+    },
+    {
+        "id":3,
+        "username":"user03",
+        "rating":60,
+        "review":"some review"
+    },
+    {
+        "id":4,
+        "username":"user04",
+        "rating":80,
+        "review":"some review"
+    }
+]

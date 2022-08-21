@@ -1,0 +1,94 @@
+#mainvideo {
+    padding: 40px 0;
+}
+#mainvideo section.wrapper {
+    display: flex;
+}
+#mainvideo section.wrapper section.main {
+    width: 65%;
+    margin: 0 auto;
+    padding: 0 20px;
+    h3 {
+        font-size: 32px;
+        font-weight: 600;
+        margin: 20px 0;
+        img{
+            display: inline-block;
+            width: 30px;
+            transform: rotate(180deg);
+            margin-right: 10px;
+        }
+    }
+    .fav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 25px;
+        margin-bottom: 30px;
+        h3 {
+            font-size: 32px;
+            font-weight: 600;
+        }
+        img{
+            width: 25px;
+            cursor: pointer;
+        }
+    }
+
+    .notes-section {
+        margin-top: 24px;
+        padding: 20px;
+        border-top: 1px solid #ccc;
+        .input {
+			margin-bottom: 32px;
+            input {
+                width: 80%;
+                font-size: 18px;
+                padding: 10px 20px;
+                border-bottom: 1px solid #ccc;
+				margin: 10px;
+            }
+            button {
+                @include btn;
+				background: #33ff18;
+				font-weight: 600;
+            }
+        }
+		.bottom {
+			h1{
+				@include title;
+				font-size: 32px;
+				margin-bottom: 24px;
+			}
+			ul>li{
+				font-size: 20px;
+				margin: 15px 0;
+			}
+		}
+    }
+}
+#mainvideo section.wrapper section.main span {
+    // display: block;
+}
+#mainvideo section.wrapper section.main p {
+}
+#mainvideo section.wrapper section.main video {
+    width: 100%;
+}
+#mainvideo section.wrapper section.que {
+    width: 35%;
+}
+#mainvideo section.wrapper section.que ul {
+}
+#mainvideo section.wrapper section.que ul li {
+    width: 400px;
+    margin-bottom: 15px;
+}
+#mainvideo section.wrapper section.que ul li:first-child {
+    padding-top: 68px;
+}
+#mainvideo section.wrapper section.que ul li img {
+    cursor: pointer;
+    display: block;
+    width: 100%;
+}

@@ -1,0 +1,244 @@
+#home-wrap {
+    padding-top: 90px;
+    #landing {
+        padding: 0;
+        background: #fff;
+    }
+    #landing section.wrapper {
+    }
+    #landing section.wrapper div.img {
+        padding: 80px 0;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        // margin-bottom: 40px;
+    }
+    #landing section.wrapper div img {
+        display: block;
+        width: 45%;
+    }
+    #landing section.wrapper section.content {
+        width: 90%;
+        margin: 0 auto;
+
+    }
+    #landing section.wrapper section.content p.top {
+        margin: 0 auto;
+        margin-bottom: 40px;
+        font-size: 22px;
+        font-weight: 500;
+        max-width: 800px;
+        text-align: center;
+    }
+    #landing section.wrapper section.content div.button {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 200px;
+    }
+    #landing section.wrapper section.content a.button {
+        display: inline-block;
+        background-color: #3ad768;
+        padding: 20px 50px;
+        border-radius: 8px;
+        color: #fff;
+        font-size: 22px;
+        font-weight: 550;
+        // height: 40px;
+    }
+    #landing section.wrapper section.content div.about {
+        margin: 0 auto;
+    }
+    #landing section.wrapper section.content div.about h3 {
+        margin-bottom: 30px;
+        font-size: 26px;
+        font-weight: 600;
+    }
+    #landing section.wrapper section.content div.about p {
+        margin-bottom: 60px;
+    }
+    #landing section.wrapper section.content div.about h1.head{
+        @include title;
+        font-size: 32px;
+        margin: 22px 0;
+    }
+    #landing section.wrapper section.content div.profile {
+        width: 30%;
+        margin: 0 auto 60px;
+        border: 1px solid #42526e;
+        padding: 40px 40px;
+        text-align: center;
+        border-radius: 10px;
+    }
+    #landing section.wrapper section.content div.profile span {
+        display: block;
+        width: 100px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    #landing section.wrapper section.content div.profile span img {
+        display: block;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #landing section.wrapper section.content div.profile h3 {
+        font-size: 22px;
+        font-weight: 600;
+    }
+    #landing section.wrapper section.content div.profile {
+    }
+    #landing section.wrapper section.content div.profile ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #landing section.wrapper section.content div.profile ul li {
+    }
+    #landing section.wrapper section.content div.profile ul li img {
+    }
+    footer {
+        background: #f4f5f7;
+        padding: 40px 0 20px;
+    }
+    footer section.wrapper {
+        display: block;
+    }
+    footer section.top {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 16px;
+        border-bottom: 1px solid #dbdbdb;
+    }
+    footer section.top div.item {
+        width: 23%;
+    }
+    footer section.top div.item h3 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 24px;
+    }
+
+    footer section.top div.item ul {
+    }
+
+    footer section.top div.item ul li {
+        margin-bottom: 7px;
+    }
+    footer section.top div.item ul li a {
+        font-size: 14px;
+        font-weight: 300;
+        letter-spacing: 0.8px;
+        margin-bottom: 24px;
+    }
+    footer section.top div.item.large {
+        width: 50%;
+    }
+    footer section.top div.item.large p {
+        font-size: 16px;
+        margin-bottom: 24px;
+        font-weight: 400;
+    }
+    footer section.top div.item.large form {
+        display: flex;
+    }
+    footer section.top div.item form input[type="email"] {
+        width: 100%;
+        margin-right: 24px;
+        padding: 12px 24px;
+        background: #fff;
+        border-radius: 4px;
+        border: 1px solid #c1c7d0;
+        font-size: 16px;
+    }
+    footer section.top div.item.large form input[type="submit"] {
+        font-size: 16px;
+        cursor: pointer;
+        color: #fff;
+        border: none;
+        padding: 12px 16px;
+        border-radius: 4px;
+        background-color: #3ad768;
+        font-weight: 600;
+    }
+    footer section.top div.item.large div.social {
+        display: flex;
+        padding-top: 24px;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    footer section.top div.item.large div.social p {
+        margin-right: 24px;
+        font-size: 16px;
+    }
+    footer section.top div.item.large div.social ul {
+        display: flex;
+    }
+    footer section.top div.item.large div.social ul li {
+        margin-right: 8px;
+    }
+    footer section.top div.item.large div.social ul li a {
+        display: block;
+        width: 32px;
+    }
+    footer section.top div.item.large div.social ul li a img {
+        width: 100%;
+        display: block;
+    }
+    footer section.bottom {
+        display: flex;
+        justify-content: space-between;
+        padding: 24px 0 0;
+    }
+    footer section.bottom div.left {
+    }
+
+    footer section.bottom div.left div.top {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    footer section.bottom div.left div.top h1.left {
+        width: 120px;
+        margin-right: 24px;
+    }
+    footer section.bottom div.left div.top h1.left a {
+        width: 100%;
+        display: block;
+    }
+    footer section.bottom div.left div.top h1.left a img {
+        width: 100%;
+        display: block;
+    }
+    footer section.bottom div.left div.top ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    footer section.bottom div.left div.top ul li {
+        margin-right: 24px;
+    }
+    footer section.bottom div.left div.top ul li a {
+        font-weight: 300;
+        font-size: 16px;
+    }
+    footer section.bottom div.left div.top p {
+        font-weight: 300;
+    }
+    footer section.bottom div.left div.bottom {
+    }
+    footer section.bottom div.left div.bottom form {
+        margin-top: 24px;
+        font-weight: 300;
+        color: #dbdbdb;
+    }
+
+    footer section.bottom div.left div.bottom form select {
+    }
+    footer section.bottom div.right {
+    }
+    footer section.bottom div.right a.btn {
+        font-size: 16px;
+        color: #0052cc;
+    }
+    footer section.bottom div.right a.btn:hover {
+        text-decoration: underlined;
+    }
+}

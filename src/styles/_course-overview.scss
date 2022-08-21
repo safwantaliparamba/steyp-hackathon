@@ -1,0 +1,50 @@
+li.course-overview{
+    width: 25%;
+    padding: 16px;
+    border: 1px solid #7e7e7e;
+
+   
+    ul.stars{
+        display: flex;
+        justify-content: space-between;
+        width: 35%;
+        margin: 16px 0;
+        li{
+            width: 160%;
+            img{
+                width: 100%;
+            }
+        }
+
+    }
+    a{
+        font-size: 15px;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    &>a.link{
+        img{
+            width: 100%;
+        }
+        h2{
+            font-size: 22px;
+            font-weight: 600;
+        }
+        p{
+            font-size: 16px;
+            font-weight: 600;
+            color: #7d7d7d;
+        }
+        &:hover{
+            text-decoration: none;
+        }
+    }
+    span{
+        display: block;
+        font-weight: 600;
+        font-size: 17px;
+        color: #57ba00;
+        margin: 24px 0 0;
+    }
+}

@@ -1,0 +1,89 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    z-index: 5;
+    align-items: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    filter: drop-shadow(0px -7px 18px #403e3e);
+}
+/*  header h1 {
+} */
+header h1 a {
+    font-size: 32px;
+    font-weight: 600;
+}
+header h1 a img {
+    width: 150px;
+}
+header .search {
+    background: #fafafe;
+    padding: 5px 40px;
+    border-radius: 10px;
+    border: 1px solid #353535;
+}
+header .search form {
+    display: flex;
+    align-items: center;
+}
+header .search form input {
+    font-size: 17px;
+}
+header .search form button[type="submit"] {
+    cursor: pointer;
+    width: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    /* filter: drop-shadow(0px -7px 18px #403e3e); */
+}
+header .search form button[type="submit"] img {
+    width: 100%;
+    display: block;
+}
+/*  header .right {
+} */
+header .right ul {
+    display: flex;
+    align-items: center;
+}
+header .right ul li {
+    margin-right: 24px;
+}
+header .right ul li a {
+    padding: 8px 18px;
+    /* background-color: #9f2c2c; */
+    border-radius: 10px;
+    font-weight: 600;
+}
+header .right ul li a img{
+    width: 32px;
+}
+// header .right ul li a:hover {
+//     background: #3b3737;
+//     color: #fff;
+// }
+header .right ul li a.profile-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .right ul li a.profile-img:hover {
+    background: none;
+    color: #111;
+}
+header .right ul li a.profile-img span {
+    font-weight: 600;
+}
+
+header .right ul li a.profile-img img {
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid #353535;
+}
+header .right ul li a.logout {
+    color: #fff;
+    background: #2d2d2d;
+}

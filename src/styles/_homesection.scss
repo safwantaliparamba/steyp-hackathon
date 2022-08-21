@@ -1,0 +1,38 @@
+#homePage{
+    .wrapper{
+        .top-swiper{
+            // width: max;
+            filter: drop-shadow(0px -7px 18px #adadad);
+            margin: 100px 20px;
+            &>h1{
+                @include title;
+                font-size: 42px;
+                margin-bottom: 32px;
+            }
+        }
+        .my-courses{
+            h1{
+                @include title;
+                font-size: 40px;
+            }
+            ul.list{
+                display: flex;
+                align-items: center;
+                // justify-content: space-between;
+                padding: 50px 0;
+                gap: 20px;
+
+                &>a{
+                    margin-left: 60px;
+                    font-size: 19px;
+                    img{
+                        width: 20px;
+                    }
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}

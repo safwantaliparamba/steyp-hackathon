@@ -1,0 +1,35 @@
+#popular-instructor {
+    display: flex;
+    // width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #f7f7f7;
+    padding: 50px 100px;
+    .left {
+        width: 30%;
+        img {
+            width: 310px;
+            border-radius: 15px;
+        }
+    }
+    .right {
+        width: 30%;
+        position: relative;
+        .dialog-box {
+            position: absolute;
+            background: #ffffff;
+            padding: 32px;
+            top: -100px;
+            filter: drop-shadow(0px -7px 18px #545454);
+            text-align: center;
+            h1 {
+                @include title;
+                font-size: 28px;
+                margin-bottom: 16px;
+            }
+            p {
+                // font-weight: 600;
+            }
+        }
+    }
+}
